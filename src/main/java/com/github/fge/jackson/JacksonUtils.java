@@ -154,7 +154,7 @@ public final class JacksonUtils
     {
         return new ObjectMapper().setNodeFactory(FACTORY)
             .enable(DeserializationFeature.USE_BIG_DECIMAL_FOR_FLOATS)
-            .enable(SerializationFeature.WRITE_BIGDECIMAL_AS_PLAIN)
+//            .enable(SerializationFeature.WRITE_BIGDECIMAL_AS_PLAIN)
             .enable(SerializationFeature.INDENT_OUTPUT);
     }
 }
